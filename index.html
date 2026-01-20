@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maranatha Gladys Lovely Simanjuntak</title>
+
+  <!-- Google Font & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffe6ef, #ffffff);
+      color: #444;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    header {
+      text-align: center;
+      padding: 70px 20px 50px;
+    }
+
+    header h1 {
+      font-size: 2.6em;
+      margin-bottom: 10px;
+      color: #e07a9a;
+    }
+
+    header p {
+      font-size: 1.1em;
+      color: #777;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .profile-card {
+      background: white;
+      border-radius: 25px;
+      padding: 40px 30px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(224,122,154,0.2);
+      margin-bottom: 40px;
+      animation: slideUp 1s ease;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .profile-card img {
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #ffe1ec;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #e07a9a;
+      margin-bottom: 15px;
+    }
+
+    .section {
+      background: white;
+      border-radius: 22px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+      transition: transform 0.4s ease;
+    }
+
+    .section:hover {
+      transform: translateY(-6px);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    ul li i {
+      color: #e07a9a;
+    }
+
+    .hobbies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .hobby {
+      background: #ffe6ef;
+      padding: 12px 20px;
+      border-radius: 30px;
+      font-size: 0.95em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #999;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2em; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Maranatha Gladys Lovely Simanjuntak</h1>
+    <p>Soft • Modern • Personal Introduction</p>
+  </header>
+
+  <div class="container">
+
+    <div class="profile-card">
+      <img src="foto-saya.jpg" alt="Foto Maranatha Gladys">
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m <strong>Maranatha Gladys Lovely Simanjuntak</strong>.
+        Born on <strong>March 3rd, 2007</strong>, 18 years old.
+        I live in <strong>Prumnas Mandala</strong>.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-user"></i> Personality & Soft Skills</h2>
+      <ul>
+        <li><i class="fa-solid fa-people-group"></i> Teamwork oriented</li>
+        <li><i class="fa-solid fa-check"></i> Responsible & disciplined</li>
+        <li><i class="fa-solid fa-lightbulb"></i> Problem solver</li>
+        <li><i class="fa-solid fa-clock"></i> Good time management</li>
+        <li><i class="fa-solid fa-eye"></i> Observative</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-calculator"></i> Interest</h2>
+      <p>
+        I have a strong interest in <strong>mathematics and numerical problem-solving</strong>.
+        I enjoy analyzing problems, identifying patterns, and finding logical solutions.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2><i class="fa-solid fa-heart"></i> Hobbies</h2>
+      <div class="hobbies">
+        <div class="hobby"><i class="fa-solid fa-book"></i> Reading books</div>
+        <div class="hobby"><i class="fa-solid fa-music"></i> Listening to music</div>
+        <div class="hobby"><i class="fa-solid fa-film"></i> Watching dramas</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Maranatha Gladys Lovely Simanjuntak
+  </footer>
+
+</body>
+</html>
